@@ -1,11 +1,9 @@
 import cv2
 import os
 
-input_folder = 'D:/ali/DIP/n'
-output_folder = 'D:/ali/DIP/n'
-
+input_folder = 'p'
+output_folder = 'p'
 os.makedirs(output_folder, exist_ok=True)
-
 for filename in os.listdir(input_folder):
     file_path = os.path.join(input_folder, filename)
 
